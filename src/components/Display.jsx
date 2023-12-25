@@ -16,7 +16,7 @@ function Display({data}) {
               <li className={data.isproject?"":"text-muted"}><span className="fa-li"><i className={data.isproject?"fas fa-check":"fas fa-times"}></i></span>{data.project}</li>
               <li className={data.isaccess?"":"text-muted"}><span className="fa-li"><i className={data.isaccess?"fas fa-check":"fas fa-times"}></i></span>{data.access}</li>
               <li className={data.isprojects?"":"text-muted"}><span className="fa-li"><i className={data.isprojects?"fas fa-check":"fas fa-times"}></i></span>{data.projects}</li>
-              <li className={data.issubdomain?"":"text-muted"}><span className="fa-li"><i className={data.issubdomain?"fas fa-check":"fas fa-times"}></i></span>{data.user!=="PRO"?<><b>unlimitated</b>  {data.subdomain}</>:data.subdomain}</li>
+              <li className={data.issubdomain?"":"text-muted"}><span className="fa-li"><i className={data.issubdomain?"fas fa-check":"fas fa-times"}></i></span>{data.subdomain}</li>
               <li className={data.ispublic?"":"text-muted"}><span className="fa-li"><i className={data.ispublic?"fas fa-check":"fas fa-times"}></i></span>{data.public}</li>
               <li className={data.isreports?"":"text-muted"}><span className="fa-li"><i className={data.isreports?"fas fa-check":"fas fa-times"}></i></span>{data.reports}</li>
             </ul>
