@@ -1,4 +1,7 @@
 # React + Vite
+This is react task to display the cards(recharge cards display) using react jsx(javascriptxml)
+
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
